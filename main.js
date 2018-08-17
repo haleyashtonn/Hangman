@@ -99,7 +99,7 @@ window.onload = function () {
     categories = [
         ["june", "offred", "nick", "waterford", "offglen", "handmaid", "lydia"],
         ["serena", "holly", "moira", "gilead", "marthas"],
-        ["unwomen", "eyes", "ceremony"]
+        ["unwomen", "eyes", "ceremony", "master"]
     ];
 
     chosenCategory = categories[Math.floor(Math.random() * categories.length)];
