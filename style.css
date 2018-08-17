@@ -1,0 +1,121 @@
+html { 
+background-color: #4E576B;    
+
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-image: url(assets/images/the-handmaids-tale.jpg);
+    background-position: 0% 25%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    
+
+}
+
+
+.container {
+    background-image: url(https://i.pinimg.com/originals/27/8a/df/278adfb7b82fdc9101bdefc94faa8eca.jpg)
+}
+.lead {
+    color: #A10000;
+
+}
+
+.sub {
+    color: #A10000;
+
+}
+
+#alphabet {
+    margin: 15px auto;
+    padding: 0;
+    max-width: 900px;
+  }
+  #alphabet:after {
+    content: "";
+    
+    clear: both;
+  }
+  
+  #alphabet li {
+    float: left;
+    margin: 0 10px 10px 0;
+    list-style: none;
+    width: 35px;
+    height: 30px;
+    padding-top: 10px;
+    background: #fff;
+    color: #A10000;
+    cursor: crosshair;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px #A10000;
+  }
+  #alphabet li:hover {
+    background: #A10000;
+    border: solid 1px #fff;
+    color: #fff;
+  }
+
+  .active {
+    opacity: 0.4;
+    
+    
+  }
+  .active:hover {
+    opacity: 0.4;
+    
+    
+  }
+  
+  #mylives {
+    font-size: 1.6em;
+    text-align: center;
+    display: block;
+  }
+  
+  #my-word {
+    margin: 0;
+    display: block;
+    padding: 0;
+    display: block;
+  }
+  
+  #my-word li {
+    position: relative;
+    list-style: none;
+    margin: 0;
+    display: inline-block;
+    padding: 0 10px;
+    font-size: 1.6em;
+  }
+
+#button {
+    border-style: double;
+    border-color: rgb(96, 185, 197);
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    background: #c1d72e;
+    color: #fff;
+    border: solid 1px #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+  }
+  button:hover {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background: #fff;
+    border: solid 1px #fff;
+    color: #A10000;
+  }
