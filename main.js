@@ -6,7 +6,7 @@ window.onload = function () {
     
    
     var word ;              // Selected word
-    var guess ;             // Geuss
+    var guess ;             // Guess
     var guesses = [ ];      // Stored guesses
     var lives ;             // Lives
     var counter ;           // Count correct guesses
@@ -51,7 +51,7 @@ window.onload = function () {
         guess.innerHTML = "_";
       }
 
-      geusses.push(guess);
+      guesses.push(guess);
       wordHolder.appendChild(correct);
       correct.appendChild(guess);
     }
@@ -64,7 +64,7 @@ window.onload = function () {
     if (lives < 1) {
       showLives.innerHTML = "Game Over";
     }
-    for (var i = 0; i < geusses.length; i++) {
+    for (var i = 0; i < guesses.length; i++) {
       if (counter + space === guesses.length) {
         showLives.innerHTML = "You Win!";
       }
@@ -88,7 +88,6 @@ window.onload = function () {
       if (j === -1) {
         lives -= 1;
         comments();
-        animate();
       } else {
         comments();
       }
