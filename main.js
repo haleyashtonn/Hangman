@@ -5,12 +5,12 @@ window.onload = function () {
           't', 'u', 'v', 'w', 'x', 'y', 'z'];
     
    
-    var word ;              // Selected word
-    var guess ;             // Guess
-    var guesses = [ ];      // Stored guesses
-    var lives ;             // Lives
-    var counter ;           // Count correct guesses
-    var space;              // Number of spaces in word '-'
+    var word ;              
+    var guess ;             
+    var guesses = [ ];      
+    var lives ;             
+    var counter ;           
+    var space;              
   
     // Get elements
     var showLives = document.getElementById("mylives");
@@ -97,7 +97,7 @@ window.onload = function () {
   // Play
   play = function () {
     categories = [
-        ["june", "offred", "nick", "waterford", "offglen", "handmaid", "lydia"],
+        ["june", "offred", "nick", "waterford", "ofglen", "handmaid", "lydia"],
         ["serena", "holly", "moira", "gilead", "marthas"],
         ["unwomen", "eyes", "ceremony", "master"]
     ];

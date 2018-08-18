@@ -95,12 +95,8 @@ background-color: #4E576B;
   }
 
 #button {
-    border-style: double;
     border-color: rgb(96, 185, 197);
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
     border-radius: 5px;
-    -khtml-border-radius: 5px;
     background: #c1d72e;
     color: #fff;
     border: solid 1px #fff;
